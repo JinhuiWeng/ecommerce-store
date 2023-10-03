@@ -29,7 +29,6 @@ const ProductPage: React.FC<ProductPageProps> = async ({
             </div>
           </div>
           <hr className="my-10" />
-          {/* why only show 1 -  to fix */}
           <ProductList title="Related Items" items={suggestedProducts} />
         </div>
       </Container>
